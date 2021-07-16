@@ -7,7 +7,7 @@ bg_files = glob.glob('.//background//*.jpg')
 
 if not img_files or not bg_files :
     print("There are no jpg files")
-    sys.exit()
+    sys.exit()  
 
 cnt = len(img_files)
 bg_cnt = len(bg_files)
@@ -23,7 +23,7 @@ while True:
         break
     
     hsv = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
-    mask = cv2.inRange(hsv,(40,150,0),(80,255,255))
+    mask = cv2.inRange(hsv,(30,150,0),(90,255,255))
 
     for i in range(bg_cnt):
         back = cv2.imread(bg_files[i])
@@ -32,7 +32,7 @@ while True:
 
         cv2.imshow("img",img)
         cv2.imwrite(".//output// {}.jpg".format(count),img)
-        cv2.waitKey()
+        cv2.waitKey(1)
         count += 1
         
 

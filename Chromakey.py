@@ -2,6 +2,7 @@ import cv2
 import sys
 import glob
 
+#크로마키 이용한 데이터 증식 코드
 img_files = glob.glob('.//class1//*.jpg')
 bg_files = glob.glob('.//background//*.jpg')
 

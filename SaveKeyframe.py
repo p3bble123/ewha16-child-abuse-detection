@@ -25,12 +25,12 @@ args = vars(ap.parse_args())
 # warmup
 print("[INFO] warming up camera...")
 #vs = VideoStream(usePiCamera=args["picamera"] > 0).start()
-cap = cv2.VideoCapture('.//data//cctv.mp4')
+cap = cv2.VideoCapture("..//data//test3.mp4")
 kcw = KeyClipWriter(bufSize=args["buffer_size"])
 consecFrames = 0
 
 # Load Yolo
-net = cv2.dnn.readNet(".//yolo/0815//yolov3_custom_last.weights", ".//yolo/0815//yolov3_custom_test.cfg")
+net = cv2.dnn.readNet(".//yolo_3//yolov3_custom_last.weights", ".//yolo_3//yolov3_custom_test.cfg")
 
 # Name custom object 
 classes = ["hit"]
@@ -45,6 +45,8 @@ fourcc = cv2.VideoWriter_fourcc(*"DIVX")
 width = round(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = round(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps = cap.get(cv2.CAP_PROP_FPS)
+f = None
+
 
 while True:
     
@@ -70,9 +72,9 @@ while True:
             
             confidence = scores[class_id]
             
-            updateConsecFrames = confidence <= 0.5
+            updateConsecFrames = confidence <= 0.7
             
-            if confidence > 0.5:
+            if confidence > 0.7:
 
                 consecFrames = 0
                 
@@ -94,6 +96,8 @@ while True:
                     p = "{}/{}.avi".format(args["output"],
                     timestamp.strftime("%Y%m%d-%H%M%S"))
                     kcw.start(p,cv2.VideoWriter_fourcc(*"DIVX"),fps, height,width)
+                    f = open(".//{}.txt".format(timestamp.strftime("%Y%m%d-%H%M%S")),"w")
+                    
     
     if updateConsecFrames:
         consecFrames += 1
@@ -116,6 +120,9 @@ while True:
             color = colors[class_ids[i]]
             cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
             cv2.putText(frame, label, (x, y + 30), font, 3, color, 2)
+            f.write("{},{},{},{} \n".format(x,y,w,h))
+            
+
           
 	# show the frame
     cv2.imshow("Frame", frame)
@@ -128,4 +135,5 @@ while True:
 
 cv2.destroyAllWindows()
 #vs.stop()
-cap.release()			
+cap.release()
+f.close()		

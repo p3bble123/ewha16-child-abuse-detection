@@ -1,0 +1,39 @@
+.MyPage__container {
+  margin: 1rem;
+  justify-content: center;
+}
+
+.MyPage__title {
+  display: flex;
+  justify-self: start;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  color: rgb(69, 82, 73);
+}
+
+.MyPage__text {
+  color: rgb(139, 167, 147);
+  font-size: 1rem;
+}
+
+.MyPage__item-container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.MyPage__item-column {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.MyPage__item-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.MyPage__profile-image {
+  width: 300px;
+  height: 400px;
+}

@@ -1,0 +1,23 @@
+.Footer {
+}
+
+.Footer__container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 2rem;
+  color: rgb(69, 82, 73);
+}
+
+.Footer__divider {
+  background-color: black;
+  width: 0.5px;
+  margin: 0 1rem;
+}
+
+.Footer__teammates {
+  margin-left: 2rem;
+  text-align: right;
+}

@@ -1,0 +1,20 @@
+.Report__container {
+  margin: 1rem;
+  justify-content: center;
+}
+
+.Report__title {
+  display: flex;
+  justify-self: start;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  color: rgb(69, 82, 73);
+}
+
+.Report__law {
+  padding: 2rem;
+  padding: 2rem;
+  font-size: 1rem;
+  font-style: italic;
+  color: rgb(69, 82, 73);
+}

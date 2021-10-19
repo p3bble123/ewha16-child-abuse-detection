@@ -1,0 +1,44 @@
+.Home__container {
+  margin: 1rem;
+  justify-content: center;
+}
+
+.Home__title {
+  display: flex;
+  justify-self: start;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  color: rgb(69, 82, 73);
+}
+
+.Home__menu-buttons-row {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0 1rem 0;
+  padding: 0 1.5rem;
+}
+
+.Home__menu-button {
+  border-color: #1eaa73;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+  padding: 1rem 4rem;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 10px;
+}
+
+.Home__menu-button-text {
+  color: rgb(69, 82, 73);
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.Home__menu-button-logo {
+  width: 2.8rem;
+}

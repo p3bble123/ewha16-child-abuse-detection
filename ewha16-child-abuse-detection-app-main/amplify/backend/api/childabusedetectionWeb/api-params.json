@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "childabusedetectionWebLambda",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "childabusedetectionWeb",
+  "apiName": "childabusedetectionWeb",
+  "functionArns": [
+    {
+      "lambdaFunction": "childabusedetectionWebLambda"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-childabusedetection-dev-231847-authRole",
+    "unAuthRoleName": "amplify-childabusedetection-dev-231847-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "childabusedetectionWebLambda",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

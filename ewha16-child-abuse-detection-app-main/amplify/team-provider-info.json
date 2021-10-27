@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-childabusedetection-dev-231847-authRole",
+      "UnauthRoleArn": "arn:aws:iam::971387131153:role/amplify-childabusedetection-dev-231847-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::971387131153:role/amplify-childabusedetection-dev-231847-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-childabusedetection-dev-231847-deployment",
+      "UnauthRoleName": "amplify-childabusedetection-dev-231847-unauthRole",
+      "StackName": "amplify-childabusedetection-dev-231847",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:971387131153:stack/amplify-childabusedetection-dev-231847/7cde7990-2c30-11ec-86f0-06494f991234",
+      "AmplifyAppId": "dnnogyzqdgezn"
+    },
+    "categories": {
+      "function": {
+        "childabusedetectionWebLambda": {
+          "deploymentBucketName": "amplify-childabusedetection-dev-231847-deployment",
+          "s3Key": "amplify-builds/childabusedetectionWebLambda-3766666c45474d4c486b-build.zip"
+        }
+      }
+    }
+  }
+}

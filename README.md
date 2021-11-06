@@ -1,6 +1,9 @@
 # ewha16-child-abuse-recognition
-캡스톤프로젝트 16팀: 아동학대 실시간 감지 딥러닝 모델
+
+아동학대 실시간 감지 딥러닝 모델
 
 - Google Colaboratories로 환경구축
 - Yolo custom train을 통해 weights 파일 획득
 - openpose를 이용해 각가속도 계산
+- normalize한 각가속도 데이터를 train 하여 행동인식 모델 생성
+- 아동학대 detect 시 aws 서버에 저장되어 웹페이지에 표시

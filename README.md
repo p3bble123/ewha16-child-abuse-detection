@@ -1,10 +1,11 @@
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=280&text=AI%20아동학대%20실시간%20감지시스템&desc=KIDOW&fontColor=000000&fontSize=50&fontAlign=50&fontAlignY=40&descSize=25&descAlign=50&descAlignY=55)  
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=280&text=그로쓰%2016팀%20아이를지켜조&desc=KIDOW&fontColor=000000&fontSize=50&fontAlign=50&fontAlignY=40&descSize=25&descAlign=50&descAlignY=55)  
 
 # AI 아동학대 실시간 감지 시스템 KIDOW <image src="https://user-images.githubusercontent.com/71063574/145254163-8c8e5b1c-1c03-4052-b4b5-870ca97ebe93.png"  width="40" height="40">
 
 :link: **관련링크** <a href="https://m.youtube.com/watch?v=l2cwnvP0w5s"><img src="https://img.shields.io/badge/Youtube-3766AB?style=flat-square&logo=YouTube&logoColor=white&color=red&link=내링크"/></a> <a href="https://drive.google.com/file/d/1fzgPNdyGTnzvcMkRXTbUQq1-1Dv0BtUc/view?usp=sharing"><img src="https://img.shields.io/badge/Poster-3766AB?style=flat-square&color=blue&link=내링크"/></a>  
-  
+
+::heart:: **기술블로그** <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/HeejinKim-3766AB?style=flat-square&color=D3E4CD&link=내링크"/></a> <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/MinheeJo-3766AB?style=flat-square&color=99A799&link=내링크"/></a> <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/JihyeonMa-3766AB?style=flat-square&color=F2DDC1&link=내링크"/></a>
   
   
   

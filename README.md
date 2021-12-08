@@ -1,5 +1,5 @@
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=280&text=그로쓰%2016팀%20아이를지켜조&desc=KIDOW&fontColor=ffffff&fontSize=50&fontAlign=50&fontAlignY=40&descSize=25&descAlign=50&descAlignY=55)  
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=280&text=그로쓰%2016팀%20아이를지켜조&desc=아동학대%20실시간%20감지시스템%20KIDOW&fontColor=ffffff&fontSize=50&fontAlign=50&fontAlignY=40&descSize=20&descAlign=50&descAlignY=55)  
 
 # AI 아동학대 실시간 감지 시스템 KIDOW <image src="https://user-images.githubusercontent.com/71063574/145254163-8c8e5b1c-1c03-4052-b4b5-870ca97ebe93.png"  width="40" height="40">
 

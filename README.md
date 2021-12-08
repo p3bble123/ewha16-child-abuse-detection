@@ -1,5 +1,5 @@
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=400&text=AI 아동학대 실시간 감지 시스템&desc=KIDOW&fontColor=000000&fontSize=40&fontAlign=20&fontAlignY=35&descSize=30&descAlign=20&descAlignY=40)  
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=400&text=AI%20아동학대%20실시간%20감지시스템&desc=KIDOW&fontColor=000000&fontSize=40&fontAlign=20&fontAlignY=30&descSize=30&descAlign=40&descAlignY=40)  
 
 # ewha16-child-abuse-recognition
 **AI 아동학대 실시간 감지 시스템 KIDOW** <image src="https://user-images.githubusercontent.com/71063574/145254163-8c8e5b1c-1c03-4052-b4b5-870ca97ebe93.png"  width="40" height="40">

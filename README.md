@@ -5,7 +5,7 @@
 
 :link: **관련링크** <a href="https://m.youtube.com/watch?v=l2cwnvP0w5s"><img src="https://img.shields.io/badge/Youtube-3766AB?style=flat-square&logo=YouTube&logoColor=white&color=red&link=내링크"/></a> <a href="https://drive.google.com/file/d/1fzgPNdyGTnzvcMkRXTbUQq1-1Dv0BtUc/view?usp=sharing"><img src="https://img.shields.io/badge/Poster-3766AB?style=flat-square&color=blue&link=내링크"/></a>  
 
-💎 **기술블로그** <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/HeejinKim-3766AB?style=flat-square&color=D3E4CD&link=내링크"/></a> <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/MinheeJo-3766AB?style=flat-square&color=99A799&link=내링크"/></a> <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/JihyeonMa-3766AB?style=flat-square&color=F2DDC1&link=내링크"/></a>
+:heart: **기술블로그** <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/HeejinKim-3766AB?style=flat-square&color=D3E4CD&link=내링크"/></a> <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/MinheeJo-3766AB?style=flat-square&color=99A799&link=내링크"/></a> <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/JihyeonMa-3766AB?style=flat-square&color=F2DDC1&link=내링크"/></a>
 
   
 <br/>

@@ -1,13 +1,17 @@
 # ewha16-child-abuse-recognition
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=160&text=KIDOW&fontColor=FFFFFF&fontSize=60&fontAlign=80&fontAlignY=30)  
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=120&text=KIDOW&fontColor=FFFFFF&fontSize=60&fontAlign=80&fontAlignY=30)  
 
-**AI 아동학대 실시간 감지 시스템 KIDOW** <image src="https://user-images.githubusercontent.com/71063574/145234424-f1200547-1ee3-47ff-b491-9f7f2e617492.png"  width="40" height="40">
+**AI 아동학대 실시간 감지 시스템 KIDOW** <image src="https://user-images.githubusercontent.com/71063574/145250979-5e30b1de-19e2-4a37-8026-07063cd6f7ea.png"  width="40" height="40">
 
-:link:link:link: : 
+:link:관련링크  
 <a href="https://m.youtube.com/watch?v=l2cwnvP0w5s"><img src="https://img.shields.io/badge/Youtube-3766AB?style=flat-square&logo=YouTube&logoColor=white&color=red&link=내링크"/></a>
 <a href="https://drive.google.com/file/d/1fzgPNdyGTnzvcMkRXTbUQq1-1Dv0BtUc/view?usp=sharing"><img src="https://img.shields.io/badge/Poster-3766AB?style=flat-square&color=blue&link=내링크"/></a>
 
+  
+  
+  
+  
 
 ## 구현 방법
 
@@ -18,6 +22,7 @@
   LSTM은 입력(input), 망각(forget),출력(output) 세 개의 게이트를 통해 입출력과 기억을 조절해 영상 시퀀스의 문맥을 학습하게 된다. 아이의 머리를 때리기 직전까지의 영상 시퀀스의 프레임들은 어른의 팔에서 큰 벡터의 크기와 방향을 가지게 된다. 그리고 이후의 영상 시퀀스의 프레임들은 아이의 머리에서 벡터의 크기와 방향을 가지게 된다. 이 문맥이 LSTM에 학습되고 최종적으로 폭력으로 검출한다.
   
   정신적 학대는 맥박 데이터를 가져와 이상치 맥박과 산소포화도를 통한 스트레스 지수를 검출한다. 두 결과값 모두 정상 범위를 넘어서면 동영상이 저장되어 파일이 홈페이지에 올라간다.     
+  
   
  
 
@@ -32,29 +37,42 @@
 
 KIDOW uses a number of open source projects to work properly:
 
-- [Python] - version.3 환경
-- [OpenCV] - 이미지 데이터 처리
-- [YOLO] - Real-Time Object Detection
-- [OpenPose] - real-time multi-person system to jointly detect human body, hand, facial, and foot keypoints (in total 135 keypoints) on single images
+- Python - version.3 환경
+- [OpenCV] - 다양한 영상/동영상 데이터 처리
+- [YOLO] - 빠른 처리속도로 실시간으로 객체탐지가 가능함
+- [OpenPose] - 실시간으로 여러사람의 자세를 추정할 수 있는 API
 - [Tensorflow] - 순환신경망 모델 구축
 - [React.js] - 웹앱 구축을 위한 JavaScript 라이브러리
 - [AWS] - 클라우드 플랫폼
-- [Colab] - run하기 위한 가상 서버
+- [Colab] - 딥러닝 코드를 run 하기위한 가상 서버
 
 And of course KIDOW itself is open source with a [public repository][dill]
 on GitHub.
 
 
+
+
 ## 기대효과 및 의의
   제안하는 아동폭력 실시간 감지 시스템은 “어린이집 정보공개 포털사이트 (https://info.childcare.go.kr/info/main.jsp)” 내에 어린이집 평가등급과 인증점수가 낮은 어린이집을 우선적으로 선정하여 적용될 것이며, 위탁가정이나 폭력 신고 접수 내역이 있는 가정환경으로 그 사용성을 확장시킬 수 있을 것이다. 제안하는 시스템이 보육시설이 아닌 가정환경에 적용될 경우 가정 내의 사생활 침해가 발생할 우려가 있으므로, 화재방지센서처럼 아동학대 정황만을 감지할 수 있도록 한다. 그후 데이터를 관리하고 학대 상황 발생 시 재빠르게 상황에 대처할 수 있도록 하는 정부차원의 노력이 필요할 것이다.
-  이 시스템은 어른과 미취학 아동 사이에서 발생한 폭력뿐만 아니라 폭력이 발생할 가능성이 있는 모든 환경에 적용시킬 수 있다. 일례로, 길거리에서 묻지마 폭행 사건이 발생했을 경우, 가해자를 추려내는데 폭력감지 내역 로그 정보를 활용하는 것이 수사에 큰 도움이 될 것이다. 유치원 보육시설을 넘어 실시간 폭력감지 시스템 기능을 확장시켜 다양한 곳에 응용*적용 시킬 수 있을 것이다.  
+  
+  이 시스템은 어른과 미취학 아동 사이에서 발생한 폭력뿐만 아니라 폭력이 발생할 가능성이 있는 모든 환경에 적용시킬 수 있다. 일례로, 길거리에서 묻지마 폭행 사건이 발생했을 경우, 가해자를 추려내는데 폭력감지 내역 로그 정보를 활용하는 것이 수사에 큰 도움이 될 것이다. 유치원 보육시설을 넘어 실시간 폭력감지 시스템 기능을 확장시켜 다양한 곳에 응용/적용 시킬 수 있을 것이다.  
+ 
   아동학대 방지는 무엇보다 조기 탐지가 중요하다. 제안하는 서비스의 기대효과는 인공지능으로 아동학대를 실시간으로 탐지하여 초기대응이 가능하다는 것이다. 기존의 아동학대 방지 시스템들은 모두 1차적이고 예방적인 접근을 목적으로 하기에 아동학대의 조기탐지 혹은 실시간탐지 기능은 떨어질 수밖에 없다. 하지만 인공지능 모델을 도입한 제안 시스템은 이상탐지를 위한 특징들을 추출하고 학습하여 아동학대를 실시간으로 탐지할 수 있는 좋은 수단이 된다. 또한 이 시스템을 통해 아동학대 피해 가정이 개인정보 보호법 CCTV영상을 확보하는데 어려움을 겪는 것을 해소해 줄 수 있으며, 결과적으로 전반적인 우리사회의 건강한 양육 환경 조성하는데 기여할 수 있다.
+
+
+
+
+## References
+* YOLO custom: <https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial>
+* OpenPose demo: <https://github.com/tugstugi/dl-colab-notebooks>
+* keras model: <https://keras.io/ko/getting-started/sequential-model-guide/>
+
 
 ## License
 
 MIT
 
-**Thank you for reading**
+
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 

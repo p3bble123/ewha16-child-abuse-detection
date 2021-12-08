@@ -10,9 +10,9 @@
 
 
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/OpenCV-3766AB?style=flat-square&logo=OpenCV&logoColor=white&color=red"/></a>
+<img src="https://img.shields.io/badge/OpenCV-3766AB?style=flat-square&logo=OpenCV&logoColor=49FF00&color=red"/></a>
 <img src="https://img.shields.io/badge/YOLO-3766AB?style=flat-square&color=84DFFF"/></a>
 <img src="https://img.shields.io/badge/OpenPose-3766AB?style=flat-square&color=grey"/></a>
 <img src="https://img.shields.io/badge/TensorFlow-3766AB?style=flat-square&logo=TensorFlow&logoColor=white&color=orange"/></a>
-<img src="https://img.shields.io/badge/React.js-3766AB?style=flat-square&logo=React&logoColor=white&color=84DFFF"/></a>
-<img src="https://img.shields.io/badge/AWS-3766AB?style=flat-square&logo=Amazon AWS&logoColor=white&color=E8E1D9"/></a>
+<img src="https://img.shields.io/badge/React.js-3766AB?style=flat-square&logo=React&logoColor=black&color=84DFFF"/></a>
+<img src="https://img.shields.io/badge/AWS-3766AB?style=flat-square&logo=Amazon AWS&logoColor=orange&color=E8E1D9"/></a>

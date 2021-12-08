@@ -1,8 +1,7 @@
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=280&text=AI%20아동학대%20실시간%20감지시스템&desc=KIDOW&fontColor=ffffff&fontSize=50&fontAlign=50&fontAlignY=40&descSize=25&descAlign=50&descAlignY=55)  
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=280&text=AI%20아동학대%20실시간%20감지시스템&desc=KIDOW&fontColor=000000&fontSize=50&fontAlign=50&fontAlignY=40&descSize=25&descAlign=50&descAlignY=55)  
 
-# ewha16-child-abuse-recognition
-**AI 아동학대 실시간 감지 시스템 KIDOW** <image src="https://user-images.githubusercontent.com/71063574/145254163-8c8e5b1c-1c03-4052-b4b5-870ca97ebe93.png"  width="40" height="40">
+# AI 아동학대 실시간 감지 시스템 KIDOW <image src="https://user-images.githubusercontent.com/71063574/145254163-8c8e5b1c-1c03-4052-b4b5-870ca97ebe93.png"  width="40" height="40">
 
 :link: **관련링크** <a href="https://m.youtube.com/watch?v=l2cwnvP0w5s"><img src="https://img.shields.io/badge/Youtube-3766AB?style=flat-square&logo=YouTube&logoColor=white&color=red&link=내링크"/></a> <a href="https://drive.google.com/file/d/1fzgPNdyGTnzvcMkRXTbUQq1-1Dv0BtUc/view?usp=sharing"><img src="https://img.shields.io/badge/Poster-3766AB?style=flat-square&color=blue&link=내링크"/></a>  
   

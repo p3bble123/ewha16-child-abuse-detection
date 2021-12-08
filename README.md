@@ -7,4 +7,6 @@
 - openpose를 이용해 각가속도 계산
 - normalize한 각가속도 데이터를 train 하여 행동인식 모델 생성
 - 아동학대 detect 시 aws 서버에 저장되어 웹페이지에 표시
+
+
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp 

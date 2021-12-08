@@ -1,7 +1,10 @@
 # ewha16-child-abuse-recognition
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&text=%20KIDOW%20&height=300&section=header&text=capsule%20render&fontSize=90&textBg=true" />
+
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&text=KIDOW&textBg=true&fontColor=d6ace6&fontSize=40&fontAlign=70&fontAlignY=20)
+
 ## _AI 아동학대 실시간 감지 시스템 KIDOW_<image src="https://user-images.githubusercontent.com/71063574/145234424-f1200547-1ee3-47ff-b491-9f7f2e617492.png"  width="40" height="40">
-:link: 관련링크 :link:  : 
+
+:link:관련링크:link: : 
 <a href="https://m.youtube.com/watch?v=l2cwnvP0w5s"><img src="https://img.shields.io/badge/Youtube-3766AB?style=flat-square&logo=YouTube&logoColor=white&color=red&link=내링크"/></a>
 <a href="https://drive.google.com/file/d/1fzgPNdyGTnzvcMkRXTbUQq1-1Dv0BtUc/view?usp=sharing"><img src="https://img.shields.io/badge/Poster-3766AB?style=flat-square&color=blue&link=내링크"/></a>
 

@@ -7,7 +7,7 @@
 
 :heart: **기술블로그** <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/HeejinKim-3766AB?style=flat-square&color=D3E4CD&link=내링크"/></a> <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/MinheeJo-3766AB?style=flat-square&color=99A799&link=내링크"/></a> <a href="https://creamlove08.tistory.com/"><img src="https://img.shields.io/badge/JihyeonMa-3766AB?style=flat-square&color=F2DDC1&link=내링크"/></a>
   
-<br/>
+  
 <br/>
 <br/>
   
@@ -23,11 +23,10 @@
   정신적 학대는 맥박 데이터를 가져와 이상치 맥박과 산소포화도를 통한 스트레스 지수를 검출한다. 두 결과값 모두 정상 범위를 넘어서면 동영상이 저장되어 파일이 홈페이지에 올라간다.  
   
   
-  
-  
-  
-  
+<br/>
+<br/>  
 
+  
 ## Tech
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/OpenCV-3766AB?style=flat-square&logo=OpenCV&logoColor=49FF00&color=red"/></a>
@@ -52,6 +51,8 @@ And of course KIDOW itself is open source with a [public repository][dill]
 on GitHub.  
 
 
+<br/>
+<br/> 
 
 
 ## 기대효과 및 의의
@@ -62,21 +63,23 @@ on GitHub.
   아동학대 방지는 무엇보다 조기 탐지가 중요하다. 제안하는 서비스의 기대효과는 인공지능으로 아동학대를 실시간으로 탐지하여 초기대응이 가능하다는 것이다. 기존의 아동학대 방지 시스템들은 모두 1차적이고 예방적인 접근을 목적으로 하기에 아동학대의 조기탐지 혹은 실시간탐지 기능은 떨어질 수밖에 없다. 하지만 인공지능 모델을 도입한 제안 시스템은 이상탐지를 위한 특징들을 추출하고 학습하여 아동학대를 실시간으로 탐지할 수 있는 좋은 수단이 된다. 또한 이 시스템을 통해 아동학대 피해 가정이 개인정보 보호법 CCTV영상을 확보하는데 어려움을 겪는 것을 해소해 줄 수 있으며, 결과적으로 전반적인 우리사회의 건강한 양육 환경 조성하는데 기여할 수 있다.  
   
   
+<br/>
+<br/>   
   
   
-
 ## References
 * YOLO custom: <https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial>
 * OpenPose demo: <https://github.com/tugstugi/dl-colab-notebooks>
 * keras model: <https://keras.io/ko/getting-started/sequential-model-guide/>  
 
 
+<br/>
+<br/> 
 
 
 ## License
 
 MIT
-
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
